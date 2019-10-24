@@ -1,0 +1,28 @@
+$breakpoint-medium: 576px;
+$breakpoint-large: 768px;
+$breakpoint-extra-large: 1200px;
+
+$font-size: 16px;
+$font-size-medium: 18px;
+$font-size-large: 20px;
+
+$font-family-content: 'Open Sans', sans-serif;
+$font-family-title: 'Roboto', sans-serif;
+$font-family-fallback: 'Helvetica', Arial, sans-serif;
+
+$white: #fafafa;
+$black: #000;
+$darkgrey: #7d8485;
+$mediumgrey: #929ca0;
+$lightgrey: #7d7574;
+$darkviolet: #241f28;
+
+$color-text: $white;
+$color-text-alt: $black;
+$color-brand: $darkgrey;
+$color-brand-alt: $darkviolet;
+$color-bg: $mediumgrey;
+
+$duration-slow: 1s;
+$duration-medium: 0.5s;
+$duration-fast: 0.3s;

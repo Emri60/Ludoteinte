@@ -1,0 +1,29 @@
+.contact__info {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid $white;
+
+    &:last-child {
+        border: none;
+        padding: none;
+    }
+
+    a, p {
+        width: 100%;
+        color: $black;
+    }
+
+    .fa {
+        margin-right: 1em;
+    }
+
+    &__label {
+        color: $white;
+        font-weight: bold;
+    }
+
+    &__content {
+        padding: 0.5em 0;
+    }
+}

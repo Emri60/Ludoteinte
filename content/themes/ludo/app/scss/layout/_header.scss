@@ -1,0 +1,24 @@
+.header {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+
+    display: flex;
+    padding: 1em;
+    //background-color: transparentize($color-brand-alt, 0.1);
+    transition: 1s;
+
+
+    @media (min-width: $breakpoint-medium) {
+        //background-color: transparentize($color-brand-alt, 0.1);
+    }
+}
+
+.solid {
+    //background-color : darken($color-bg, 20);
+    background-color: transparentize($black, 0.1);
+    
+}

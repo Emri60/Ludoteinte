@@ -1,0 +1,11 @@
+.navbar-mobile {
+    visibility: visible;
+    position: absolute;
+    right: 10px;
+    top: 0.1em;
+    font-size: 2em;
+
+    @media (min-width: $breakpoint-medium) {
+        visibility: hidden;
+    }
+}

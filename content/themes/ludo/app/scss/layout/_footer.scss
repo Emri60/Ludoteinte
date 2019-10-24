@@ -1,0 +1,44 @@
+.footer {
+    background-color: transparentize($color: $black, $amount: 0.5);
+
+    min-height: 30vh;
+
+    display: flex;
+    flex-direction: column;
+
+    .plan {
+        align-self: center;
+        padding: 1em 0;
+    }
+
+
+    @media (min-width: $breakpoint-medium) {
+        flex-direction: row;
+        justify-content: space-around;
+
+        .plan {
+            padding-left: 2em;
+        }
+
+        // .contact {
+        //     margin: 2em;
+
+        //     textarea {
+        //         height: 6em;
+        //     }
+        // }
+    }
+
+    @media (min-width: $breakpoint-large) {
+        
+        
+        .plan, .contact{
+            width: 40%;
+        }
+
+        iframe {
+            width: 80%;
+            height: 10em;
+        }
+    }
+}

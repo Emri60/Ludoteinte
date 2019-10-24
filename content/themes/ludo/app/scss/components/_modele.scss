@@ -1,0 +1,22 @@
+.modele {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    border-bottom: 2px solid $darkviolet;
+
+    h3 {
+        width: 40%;
+        font-size: 1.3em;
+        padding-bottom: 0.5em;
+    }
+
+    p {
+        margin: auto 0;
+    }
+
+    &__critere {
+        display: flex;
+        margin-left: 40%;
+        justify-content: space-between;
+    }
+}

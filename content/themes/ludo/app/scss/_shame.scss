@@ -1,0 +1,15 @@
+.call {
+    width: 100%;
+    height: 20vh;
+
+    @media (min-width: $breakpoint-medium) {
+        height: 30vh;
+      
+    }
+
+    @media (min-width: $breakpoint-large) {
+        height: 40vh;
+
+    }
+
+}

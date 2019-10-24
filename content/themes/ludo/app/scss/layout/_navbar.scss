@@ -1,0 +1,33 @@
+.navbar {
+    display: none;
+    visibility: hidden;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    @media (min-width: $breakpoint-medium) {
+        visibility: visible;
+
+        &__menu {
+            
+            margin: auto 0;
+
+            a:hover {
+                font-weight: bold;
+            }
+
+            a {
+                padding: 0.5em;
+            }
+        }
+
+        &__social {
+
+            a {
+                padding: 0.5em;
+                font-size: 1.5em;
+            }
+        }
+
+    }
+}
