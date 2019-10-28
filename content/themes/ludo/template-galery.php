@@ -31,5 +31,4 @@ Template Name: Page de galerie
 
   </main>
 
-
 <?php get_footer(); ?>

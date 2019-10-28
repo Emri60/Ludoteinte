@@ -1,0 +1,38 @@
+.contact-form {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    
+
+    @media (min-width: $breakpoint-medium) {
+
+        min-height: 70vh;
+
+    }
+
+    @media (min-width: $breakpoint-extra-large) {
+
+        min-height: 80vh;
+        
+    }
+
+    &__title {
+        width: 80%;
+        align-self: center;
+        text-align: center;
+        font-weight: bold;
+        padding-top: 0.5em;
+        padding-bottom: 0.2em;
+        font-size: 3em;
+        border-bottom: 1px solid $black;
+        margin-bottom: 1em;
+    }
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}

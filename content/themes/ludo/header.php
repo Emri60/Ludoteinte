@@ -19,7 +19,7 @@
           <a href="<?= home_url(); ?>">Acceuil</a>
           <a href="prestations.html">Tarifs</a>
           <a href="<?php echo esc_url( home_url( '/ma-galerie' ) ); ?>">Photos</a>
-          <a href="contact.html">Contact</a>
+          <a href="<?php echo esc_url( home_url( '/contact' ) ); ?>">Contact</a>
         </div>
         <div class="navbar__social">
           <a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>

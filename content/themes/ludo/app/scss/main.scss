@@ -33,6 +33,7 @@ $fa-font-path:  '~font-awesome/fonts';
     'layout/prestations',
     'layout/sidebar',
     'layout/tarifs',
+    'layout/contact-form',
     'layout/menu';
 
 //5. Import des components
@@ -40,7 +41,6 @@ $fa-font-path:  '~font-awesome/fonts';
     'components/navbar-mobile',
     'components/contact',
     'components/contact__info.scss',
-    'components/field',
     'components/ui-button',
     'components/modal-nav',
     'components/modele',

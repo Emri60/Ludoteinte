@@ -17,6 +17,6 @@
 
     <section class="call" style="background-image: url(<?= wp_get_attachment_image_url(90, 0); ?>);">
     
-    </section>
+    </section> 
 
 <?php get_footer(); ?>

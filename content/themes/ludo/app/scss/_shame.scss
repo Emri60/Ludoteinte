@@ -13,3 +13,102 @@
     }
 
 }
+
+
+.form__field {
+
+    width: 90%;
+
+    @media (min-width: $breakpoint-extra-large) {
+
+        width: 60%;
+    }
+
+    label {
+        display: block;
+        padding: 0.5em 0;
+        font-weight: bold;
+    }
+
+    input[type=text],
+    input[type=email],
+    textarea {
+        width: 100%;
+        padding: 0.5em;
+        border-radius: 0.3em;
+        border: none;
+        color: $white;
+        font-weight: bold;
+        text-transform: capitalize;
+        background-color: transparentize($color: $black, $amount: 0.5);
+
+        &:focus {
+            border: none;
+            outline: none;
+        }
+    }
+
+    textarea {
+        resize: none;
+        height: 8em;
+    }
+
+    @media (min-width: $breakpoint-medium) {
+        
+        input[type=text],
+        input[type=email] {
+            width: 50%;
+            padding: 0.8em;
+        }
+
+    }
+
+    @media (min-width: $breakpoint-large) {
+
+        input[type=text],
+        input[type=email] {
+            width: 40%;
+            padding: 1em;
+        }
+
+        textarea {
+            width: 70%;
+            height: 12em;
+        }
+
+    }
+
+}
+
+.form__submit {
+
+    width: 90%;
+
+    @media (min-width: $breakpoint-extra-large) {
+
+        width: 60%;
+    }
+
+    input[type=submit] {
+        margin: 1em 0;
+        border: none;
+        font-weight: bold;
+        padding: 0.8em;
+        text-transform: capitalize;
+
+        @media (min-width: $breakpoint-medium) {
+
+            padding: 1.5em;
+        }
+
+    }
+
+    @media (min-width: $breakpoint-large) {
+            
+        display: flex;
+
+        input[type=submit] {
+            align-self: flex-start;
+        }
+    }
+}
