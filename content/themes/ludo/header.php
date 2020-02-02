@@ -31,4 +31,5 @@
 
     <section class="banner" style="background-image: url(<?= wp_get_attachment_image_url(90, 0); ?>);">
       <div class="pres"><h1>Ludoteinte60</h1></div>
+
     </section>

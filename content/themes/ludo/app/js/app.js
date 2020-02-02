@@ -20,7 +20,7 @@ var app = {
     app.$header = $('.header');
     
     jarallax(document.querySelector('.banner'), {
-      speed: 0.5
+      speed: 0.2
     });
 
     //Je vérifie que ma class call existe dans ma page pour ne pas faire bugguer mon script JS
